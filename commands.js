@@ -1,0 +1,28 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Commands = void 0;
+var Commands;
+(function (Commands) {
+    Commands["north"] = "north";
+    Commands["n"] = "n";
+    Commands["south"] = "south";
+    Commands["s"] = "s";
+    Commands["east"] = "east";
+    Commands["e"] = "e";
+    Commands["west"] = "west";
+    Commands["w"] = "w";
+    Commands["look"] = "look";
+    Commands["l"] = "l";
+    Commands["inventory"] = "inventory";
+    Commands["inv"] = "inv";
+    Commands["i"] = "i";
+    Commands["quit"] = "quit";
+    Commands["q"] = "q";
+    Commands["take"] = "take";
+    Commands["t"] = "t";
+    Commands["drop"] = "drop";
+    Commands["d"] = "d";
+    Commands["equip"] = "equip";
+    Commands["eq"] = "eq";
+    Commands["wear"] = "wear";
+})(Commands || (exports.Commands = Commands = {}));
